@@ -1,0 +1,138 @@
+*{
+    font-family: nunito;
+}
+
+.navbar{
+    background-color: #fff !important;
+}
+
+.header-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.75);
+    z-index: 999999;
+}
+
+.navbar-brand{
+    font-weight:700;
+    color: #a0041e;
+}
+
+.nav-link{
+    font-weight: 700;
+}
+
+.cta{
+    border: 2px solid #a0041e;
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 10px 15px !important;
+}
+
+.cta:hover{
+    background-color: #a0041e;
+    color: #eee;
+}
+
+.banner{
+    min-height: 500px;
+    margin-top: 70px;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay{
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 45;
+}
+
+.banner-content{
+    position: relative;
+    z-index: 60;
+}
+
+.active{
+    color: #a0041e !important;
+}
+
+.banner-padding{
+    padding: 12% 5%; 
+}
+
+.box{
+    background-color: #eee7e7;
+}
+
+.banner2{
+    height: 300px;
+    margin-top: 70px;
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.darkoverlay{
+    background-color: rgba(0, 0, 0, 0.40);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 45;
+}
+
+.trust{
+    z-index: 80;
+    position: relative;
+    color: white !important;
+}
+
+.container3 .b1{
+    background-image: url(../images/b1.jpg);
+    height: 200px;
+    background-size: cover;
+}
+
+.container3 .b1 .date{
+    background-color: #eb546b;
+    color: #eee;
+}
+
+.container3 .b2{
+    background-image: url(../images/b7.jpg);
+    height: 200px;
+    background-size: cover;
+}
+
+.container3 .b3{
+    background-image: url(../images/b1.jpg);
+    height: 200px;
+    background-size: cover;
+}
+
+.container4 .wom{
+    background-image: url(../images/women.jpg);
+    height: 500px;
+    background-size: cover;
+}
+
+.container4 .form-select{
+    height: 62px;
+}
+
+.container8 .d-flex ul{
+    list-style-type: none;
+}
+
+.container .ctrl{
+    background-color: #d6dbd9;
+}
