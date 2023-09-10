@@ -31,6 +31,18 @@
     padding: 10px 15px !important;
 }
 
+.cta2{
+    border: 2px solid #a0041e;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #a0041e;
+    color: white;
+}
+
+.pnt{
+    color: #a0041e;
+}
+
 .cta:hover{
     background-color: #a0041e;
     color: #eee;
@@ -74,7 +86,6 @@
 
 .banner2{
     height: 300px;
-    margin-top: 70px;
     background-image: url(../images/bg.jpg);
     background-position: center;
     background-size: cover;
@@ -90,6 +101,22 @@
     z-index: 45;
 }
 
+.container3 h3{
+    font-size: 15px;
+}
+
+.container3 .pa{
+    font-size: 40px;
+}
+
+.container4 h3{
+    font-size: 10px;
+}
+
+.line{
+    color: #a0041e;
+}
+
 .trust{
     z-index: 80;
     position: relative;
@@ -102,7 +129,7 @@
     background-size: cover;
 }
 
-.container3 .b1 .date{
+.date{
     background-color: #eb546b;
     color: #eee;
 }
@@ -129,10 +156,25 @@
     height: 62px;
 }
 
+.butt{
+    border-color: #eb546b;
+    background-color: white;
+}
+
 .container8 .d-flex ul{
     list-style-type: none;
 }
 
-.container .ctrl{
-    background-color: #d6dbd9;
+.ctrl{
+    background-color: white;
+}
+
+.container5 .row .samp{
+    background-image: url(../images/b4.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+.round-circle{
+    height: 20px;
 }
