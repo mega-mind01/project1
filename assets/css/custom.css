@@ -146,6 +146,25 @@
     background-size: cover;
 }
 
+.container3 button{
+    border-radius: 10px;
+}
+
+.biz{
+    background-color: pink;
+    color: #a0041e;
+}
+
+.des{
+    background-color: green;
+    color: aquamarine;
+}
+
+.ind{
+    background-color: blue;
+    color: skyblue;
+}
+
 .container4 .wom{
     background-image: url(../images/women.jpg);
     height: 500px;
@@ -177,4 +196,8 @@
 
 .round-circle{
     height: 20px;
+}
+
+.container8 input{
+    border: none;
 }
